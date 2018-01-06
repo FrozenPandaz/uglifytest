@@ -9,5 +9,6 @@ var MyClass = /** @class */ (function () {
     };
     return MyClass;
 }());
-var me = new MyClass();
-me.hi();
+function hi() {
+    console.log('hi');
+}

@@ -8,5 +8,6 @@ class MyClass {
     }
 }
 
-const me = new MyClass();
-me.hi();
+function hi() {
+    console.log('hi');
+}

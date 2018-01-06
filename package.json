@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "transpile": "tsc index.ts",
+    "preoptimize": "npm run transpile",
     "optimize": "build-optimizer index.js output.js",
+    "prebuild": "npm run optimize",
     "build": "uglifyjs output.js --compress --mangle --output output.min.js"
   },
   "author": "",
