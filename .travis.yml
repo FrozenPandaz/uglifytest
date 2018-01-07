@@ -1,0 +1,13 @@
+sudo: required
+dist: trusty
+language: node_js
+node_js:
+ - 6.0
+ - 8.0
+ - 9.0
+
+script:
+  - npm run build
+
+after_script:
+ - ls -lh
