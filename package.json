@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "@angular-devkit/build-optimizer": "^0.0.37",
-    "webpack": "^3.10.0"
+    "webpack": "^4.39.1"
   }
 }
